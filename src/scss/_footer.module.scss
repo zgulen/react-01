@@ -1,0 +1,17 @@
+@import "./variables";
+
+.copyright{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $--portakal;
+    p{
+        text-align: center;
+        padding-top: 1rem;
+        color: azure;
+        span{
+            font-weight: 600;
+        }
+    }
+}

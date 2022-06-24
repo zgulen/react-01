@@ -1,0 +1,23 @@
+@import "./content.module","./footer.module","./header.module","./reset.scss","./variables","./button.module";
+
+
+
+@media screen and (max-width: 550px) {
+    .container {
+      max-width: 100%;
+      &__content {
+        max-width: 100%;
+        width: 90%;
+        display: flex;
+        box-shadow: 2px 2px 10px 2px black;
+        border-radius: 2rem;
+        margin: 1rem auto;
+        .cards {
+          text-align: center;
+        }
+        img {
+          width: 30%;
+        }
+      }
+    }
+  }
